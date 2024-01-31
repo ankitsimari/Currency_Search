@@ -36,10 +36,6 @@ export default function Main() {
     return () => clearTimeout(timeout);
   }, [currencyCode]);
 
-  // useEffect(() => {
-  //   setCurrentPage(1);
-  // }, [currencyCode]);
-
   return (
     <div className="wrapper">
       {/* SearchBox */}
