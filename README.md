@@ -8,21 +8,21 @@ A simple web application built with React that allows users to search for countr
 
 - Input field for users to enter a currency code.
 - Debouncing functionality to enhance user experience and reduce API requests.
-- ![Search Box](https://i.ibb.co/PxXQHdT/Screenshot-2024-01-31-111353.png)
+ ![Search Box](https://i.ibb.co/PxXQHdT/Screenshot-2024-01-31-111353.png)
 
 
 ### 2. Country Cards
 
 - Displays information about countries using the entered currency code.
 - Each card includes the country name, capital, continent, and a flag image.
-- ![Country Cards](https://i.ibb.co/YDmCjV2/Screenshot-2024-01-31-111618.png)
+ ![Country Cards](https://i.ibb.co/YDmCjV2/Screenshot-2024-01-31-111618.png)
 
 
 ### 3. Pagination
 
 - Paginates the list of countries to show a limited number per page (4 countries per page).
 - Allows users to navigate through pages.
-- ![Pagination](https://i.ibb.co/c2mPYHq/Screenshot-2024-01-31-111644.png)
+ ![Pagination](https://i.ibb.co/c2mPYHq/Screenshot-2024-01-31-111644.png)
 
 
 ## Code Structure
