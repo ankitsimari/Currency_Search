@@ -2,6 +2,8 @@
 
 A simple web application built with React that allows users to search for countries based on their currency code. The application features a search box with Debouncing functionality, country cards, and pagination for easy navigation.
 
+ [Live-link:-](https://currency-search.vercel.app/).
+
 ## Features
 
 ### 1. Search Box
