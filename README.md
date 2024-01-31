@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Currency Search Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web application built with React that allows users to search for countries based on their currency code. The application features a search box with Debouncing functionality, country cards, and pagination for easy navigation.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. Search Box
 
-### `npm start`
+- Input field for users to enter a currency code.
+- Debouncing functionality to enhance user experience and reduce API requests.
+- ![Search Box](<img width="943" alt="Screenshot 2024-01-31 111353" src="https://github.com/ankitsimari/Currency_Search/assets/130365748/9db7baa6-610d-4ecb-9280-a43d89253bba">)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Country Cards
 
-### `npm test`
+- Displays information about countries using the entered currency code.
+- Each card includes the country name, capital, continent, and a flag image.
+- ![Country Cards](<img width="950" alt="Screenshot 2024-01-31 111618" src="https://github.com/ankitsimari/Currency_Search/assets/130365748/b7383a75-bf09-49d2-ab47-481f247804f7">)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 3. Pagination
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Paginates the list of countries to show a limited number per page (4 countries per page).
+- Allows users to navigate through pages.
+- ![Pagination](<img width="950" alt="Screenshot 2024-01-31 111644" src="https://github.com/ankitsimari/Currency_Search/assets/130365748/c76b198a-85b0-4237-a05e-a4a01218192d">)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Code Structure
 
-### `npm run eject`
+The application is structured with three main components:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Main Component
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Main component responsible for managing the state, handling API requests, and rendering other components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Card Component
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Card component responsible for displaying information about countries.
 
-## Learn More
+### 3. Heading Component
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Heading component to display during the mount phase or when there is no data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository to your local machine.
+2. Install dependencies with npm install.
+3. Run the application with npm start.
